@@ -1,75 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic HTML Table</title>
-    <style>
-      body {
-        margin: 20px;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-        background-color: white;
-      }
-      th,
-      td {
-        border: 1px solid #ddd;
-        padding: 12px;
-        text-align: left;
-      }
-      th {
-        background-color: #4caf50;
-        color: white;
-        font-weight: bold;
-      }
-      tr:nth-child(even) {
-        background-color: #f2f2f2;
-      }
-      tr:hover {
-        background-color: #ddd;
-      }
-      caption {
-        background-color: #ddd;
-        font-size: 1.2em;
-        font-weight: bold;
-        padding: 10px;
-        color: #333;
-      }
-    </style>
-  </head>
-  <body>
-    <table>
-      <thead>
-        <tr>
-          <th>Sak</th>
-          <th>Röd</th>
-          <th>Grön</th>
-          <th>Blå</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Bord</td>
-          <td>Jordgubbe</td>
-          <td>Gräs</td>
-          <td>Havet</td>
-        </tr>
-        <tr>
-          <td>Bär</td>
-          <td>Jordgubbe</td>
-          <td>Krusbär</td>
-          <td>Blåbär</td>
-        </tr>
-        <tr>
-          <td>cola</td>
-          <td>fanta</td>
-          <td>sprite</td>
-          <td>pepsi</td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basic HTML Table</title>
+        <style>
+            body {
+                margin: 20px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+                background-color: white;
+            }
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: left;
+            }
+            th {
+                background-color: #4caf50;
+                color: white;
+                font-weight: bold;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            tr:hover {
+                background-color: #ddd;
+            }
+            caption {
+                background-color: #ddd;
+                font-size: 1.2em;
+                font-weight: bold;
+                padding: 10px;
+                color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sak</th>
+                    <th>Röd</th>
+                    <th>Grön</th>
+                    <th>Blå</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bord</td>
+                    <td>Jordgubbe</td>
+                    <td>Gräs</td>
+                    <td>Havet</td>
+                </tr>
+                <tr>
+                    <td>Bär</td>
+                    <td>Jordgubbe</td>
+                    <td>Krusbär</td>
+                    <td>Blåbär</td>
+                </tr>
+                <tr>
+                    <td>cola</td>
+                    <td>fanta</td>
+                    <td>sprite</td>
+                    <td>pepsi</td>
+                </tr>
+                <tr>
+                    <td>Fågel</td>
+                    <td colspan="3">papgoeja</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>jag är i foten</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
 </html>
